@@ -1,0 +1,29 @@
+.home-page {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #FF69B4;
+}
+
+.gallery-button {
+    margin-top: 30px;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    color: #fff;
+    background: linear-gradient(135deg, #ff8a00 0%, #e52e71 100%);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.gallery-button:hover {
+    background: linear-gradient(135deg, #e52e71 0%, #ff8a00 100%);
+    transform: translateY(-2px);
+}
